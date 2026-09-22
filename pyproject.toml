@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pst2thunderbird"
+version = "1.0.0"
+authors = [
+  { name = "mkjohnny1003", email = "mkjohnny1003@users.noreply.github.com" },
+]
+description = "Outlook PST to Mozilla Thunderbird single-window seamless mail migration tool."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Communications :: Email",
+]
+
+[project.scripts]
+pst2thunderbird = "main:main"

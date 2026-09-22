@@ -1,0 +1,11 @@
+# pst2thunderbird 依賴套件
+
+# Windows 原生環境 (若本機有 Outlook，強烈建議安裝 pywin32，免任何 C 編譯)
+pywin32>=306; sys_platform == 'win32'
+
+# 獨立跨平台 PFF 解析引擎 (選用，適用於無 Outlook 之環境)
+# pypff-python>=20210811
+# libratom>=0.4.0
+
+# 測試與開發
+pytest>=7.0.0
